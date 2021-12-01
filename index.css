@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("https://phunugioi.com/wp-content/uploads/2020/02/mau-background-dep.jpg");
+}
+.show1{
+    margin: auto;
+    width: 400px;
+    height: 300px;
+    background-color: #FFB6C1;
+    text-align: center;
+    border-radius: 10px;
+    transition: 1s;
+}
+.show1.toggle{
+    display: none;
+}
+.show1 h2{
+    margin-top: 150px;
+    padding-top: 40px;
+    color: #8A2BE2;
+}
+.show1 .acp{
+    margin-top: 100px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #8A2BE2;
+    color: white;
+    cursor: pointer;
+}
+.show2{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: none;
+    transition: 1s;
+}
+.show2.toggle{
+    display: block;
+}
+.show2 h1{
+    position: fixed;
+    top:20%;
+    left: 40%;
+    color: white;
+}
+.show2 .yes{
+    position: fixed;
+    top: 50%;
+    left: 30%;
+    width: 150px;
+    height: 40px;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+    background-color: purple;
+    color: yellow;
+    cursor: pointer;
+}
+.show2 .no{
+    position: fixed;
+    width: 150px;
+    height: 40px;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.show3{
+    position: fixed;
+    width: 700px;
+    height: 200px;
+    background-color: #FA8072;
+    top: 30%;
+    left: 25%;
+    border-radius: 10px;
+    display: none;
+}
+.show3.toggle{
+    display: block;
+}
+.show3 h3{
+    position: fixed;
+    top: 32%;
+    left: 40%;
+    font-size: 30px;
+}
+.show3 input{
+    position: fixed;
+    top: 42%;
+    width: 600px;
+    height: 30px;
+    left: 28.5%;
+    border-radius: 5px;
+    border: 2px solid #4B0082;
+    padding-left: 10px;
+}
+.show3 button{
+    position: fixed;
+    top: 53%;
+    width: 100px;
+    height: 30px;
+    left: 47%;
+    border-radius: 5px;
+    border: 2px solid #DC143C;
+    background-color: #BDB76B;
+    cursor: pointer;
+}
+.show4{
+    position: fixed;
+    width: 700px;
+    height: 200px;
+    background-color: #FA8072;
+    top: 30%;
+    left: 25%;
+    border-radius: 10px;
+    display: none;
+}
+.show4.toggle{
+    display: block;
+}
+.show4 h2{
+    position: fixed;
+    top: 34%;
+    left: 32%;
+    font-size: 30px;
+    color: #9400D3;
+}
+.show4 button{
+    position: fixed;
+    top: 50%;
+    left: 46.5%;
+    width: 120px;
+    height: 40px;
+    font-size: large;
+    border-radius: 5px;
+    border: 2px solid #DC143C;
+    cursor: pointer;
+}

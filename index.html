@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web a minh</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="show1">
+        <h2>Sau đây là một số câu hỏi<br> mong cậu có thể trả lời nha</h2>
+        <button type="button" class="acp" onclick="show2()">Oki</button>
+    </div>
+    <div class="show2">
+        <h1>Cậu có yêu tớ không?</h1>
+        <button type="button" class="yes" onclick="show3()">Tất nhiên rồi ^^</button>
+        <button type="button" class="no" style="left: 800px; top: 300px;" onmousemove="moveButton()">Không bao giờ!!</button>
+    </div>
+    <div class="show3">
+        <h3>Cho tớ biết lý do điiii</h3>
+        <input type="text" class="textauto" placeholder="Lý do....." onmousemove="textauto1()">
+        <button type="button" class="send" onclick="show4()">Gửi ở đây</button>
+    </div>
+    <div class="show4">
+        <h2>Cảm ơn cậu đã trả lời ib cho mình đi</h2>
+        <button type="button" onclick="fb()">Ok luôn</button>
+    </div>
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</body>
+</html>
